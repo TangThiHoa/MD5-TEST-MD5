@@ -1,0 +1,8 @@
+<form [formGroup]="updateForm" (ngSubmit)="save()">
+  <input type="hidden" formControlName="id">
+  <input type="text" formControlName="name">
+  <input type="number" formControlName="description">
+  <input type="number" formControlName="action">
+  <button type="submit">Update</button>
+</form>
+
