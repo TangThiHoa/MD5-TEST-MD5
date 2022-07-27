@@ -9,13 +9,15 @@ import {ReactiveFormsModule} from "@angular/forms";
 import { CreateStudentComponent } from './create-student/create-student.component';
 import {ListStudentComponent} from "./list-student/list-student.component";
 import { EditStudentComponent } from './edit-student/edit-student.component';
+import { DetailStudentComponent } from './detail-student/detail-student.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListStudentComponent,
     CreateStudentComponent,
-    EditStudentComponent
+    EditStudentComponent,
+    DetailStudentComponent
   ],
   imports: [
     BrowserModule,
